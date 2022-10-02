@@ -250,6 +250,9 @@
         }
       },
       "PSX.NET.MSFS.Shared/1.0.0": {
+        "dependencies": {
+          "PSX.NET.Core": "1.0.0"
+        },
         "runtime": {
           "PSX.NET.MSFS.Shared.dll": {}
         }
