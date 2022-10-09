@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x64": {
-      "PSX.NET.MSFS.Client/2.0.4": {
+      "PSX.NET.MSFS.Client/2.0.5": {
         "dependencies": {
           "Abacus": "1.1.0",
           "MetroFramework": "1.2.0.3",
@@ -17,7 +17,6 @@
           "NetMQ": "4.0.1.6",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2",
-          "PSX.NET.Core": "1.0.0",
           "PSX.NET.MSFS.Shared": "1.0.0",
           "System.Data.DataSetExtensions": "4.5.0",
           "System.ServiceModel.Federation": "4.8.1",
@@ -951,6 +950,9 @@
         }
       },
       "PSX.NET.Core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
         "runtime": {
           "PSX.NET.Core.dll": {}
         }
@@ -974,7 +976,7 @@
     }
   },
   "libraries": {
-    "PSX.NET.MSFS.Client/2.0.4": {
+    "PSX.NET.MSFS.Client/2.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
