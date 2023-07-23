@@ -1,0 +1,4 @@
+This file is required for version checking within the WASM Module.  Please do not delete.
+
+V3 - Updates MSFS Altitude to be correct when flying on VATSIM
+V4 - Reduce Stutters when going through transition level
