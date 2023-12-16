@@ -1,3 +1,4 @@
 This file is required for version checking within the WASM Module.  Please do not delete.
 
 V11 fixes 8.33 Frequencies and Gear Animations
+V12 improves performance
